@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background: #D6E1FF;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container .box{
+    border-radius: 0 0 20px 20px;
+}
+.container .header{
+    height: 225px;
+}
+.container .header img{
+    width: 450px;
+    height: 225px;
+    border-radius: 20px 20px 0 0;
+}
+.box .logo{
+    width: 450px;
+
+    
+}
+.box .content-box{
+    max-width: 450px;
+    background: white;
+    border-radius: 0 0 20px 20px;
+}
+.content-box .main-text{
+    text-align: center;
+    padding: 50px 40px 0 40px;
+}
+.content-box .main-text h1{
+    margin-bottom: 25px;
+    color: #232B50;
+    font-weight: 800;
+    font-size: 28px;
+}
+.content-box .main-text p{
+    font-size: 16px;
+    padding: 0 20px 0 20px;
+    color: hsl(224, 23%, 55%);
+    line-height: 24px;
+}
+.box .main{
+    background: #F8F9FE;
+    display: flex;
+    padding: 25px;
+    margin: 20px 40px 20px 40px;
+    border-radius: 15px;
+    align-items: center;
+    column-gap: 20px;
+    position: relative;
+}
+.box .main h5{
+    margin-bottom: auto;
+
+}
+.box .main h5::before{
+    content: '$59.99/year';
+    position: absolute;
+    bottom: 32px;
+    font-size: 13px;
+    color:hsl(224, 23%, 55%);
+}
+.box .main a{
+    margin-left: auto;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.box .footer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px 20px 40px;
+}
+.footer button{
+    background: hsl(245, 75%, 52%);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0px 10px 20px hsla(245, 75%, 52%,.3);
+}
+.footer span{
+    text-align: center;
+    margin: 30px 0 40px 0;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    cursor: pointer;
+}
